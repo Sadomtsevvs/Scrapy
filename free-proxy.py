@@ -1,7 +1,7 @@
 from scrapy import Spider
 from base64 import b64decode
 
-PAGES_TO_PARSE = 5
+PAGES_TO_PARSE = 4
 
 
 class ProxiesSpider(Spider):
