@@ -7,7 +7,7 @@ PAGES_TO_PARSE = 5
 class ProxiesSpider(Spider):
     name = "proxies"
     start_urls = [
-        "http://free-proxy.cz/en/"
+        "http://free-proxy.cz/en/",
     ]
 
     def __init__(self, **kwargs):
