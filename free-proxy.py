@@ -16,7 +16,6 @@ class ProxiesSpider(Spider):
 
     def parse(self, response):
 
-
         for row in response.xpath('//*[@id="proxy_list"]//tbody//tr'):
             if row.xpath('td[1]/script[@type="text/javascript"]/text()').get() is None:
                 continue
